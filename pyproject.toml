@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-detect-nsfw"
+version = "1.0.0"
+description = "One ComfyUI node: Freepik NSFW image check, Qwen NSFW text check"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+dependencies = [
+    "nsfw-image-detector",
+    "Pillow>=9.0.0",
+    "timm>=0.6.0",
+]
+
+[tool.comfy]
+DisplayName = "Detect NSFW"
+Icon = ""
